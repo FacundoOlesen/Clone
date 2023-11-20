@@ -1,0 +1,361 @@
+@font-face {
+    font-family: NetflixSans;
+    src: url(NetflixSans-Regular.woff2);
+}
+
+body {
+    height: 100%;
+    background-color: black;
+    margin: 0;
+    color: white;
+    font-family: NetflixSans;
+    line-height: 16px;
+    overflow-x: hidden;
+}
+
+.logo-netflix img {
+    margin-top: 15px;
+    height: 22px;
+    height: 25px;
+    padding: 0 5%;
+
+}
+
+.cont-all h1 {
+    padding: 0 5%;
+    margin-top: 40px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    gap: 2px;
+}
+
+
+input {
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 5%;
+    background-color: #333;
+    margin-top: 17px;
+    width: 80%;
+}
+
+::placeholder {
+    color: #8c8c8c;
+    font-family: NetflixSans;
+    font-weight: 400;
+    font-size: 14px;
+}
+.log{
+    width: 100%;
+    margin-left: 10%;
+}
+
+.login:hover{
+    cursor: pointer;
+}
+
+.login {
+    background-color: #e50914;
+    font-size: 16px;
+    font-weight: 700;
+    height: 47px;
+    line-height: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 33px;
+    width:90%;
+}
+
+.remember {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -75px;
+    font-weight: 400;
+    color: #b3b3b3;
+    font-size: 13px;
+    padding: 0 5%;
+    font-weight: 400;
+}
+
+.check {
+    display: flex;
+    gap: 0px;
+}
+
+.checkbox {
+    margin-top: -3px;
+}
+
+.subs {
+    color: #737373;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    width: 84%;
+    font-size: 16px;
+}
+
+.subs h5 {
+    margin-top: -5px;
+    font-weight: 400;
+}
+
+.span-sub {
+    font-size: 16px;
+}
+
+.subs span {
+    color: #fff;
+    font-weight: 400;
+}
+
+a {
+    color: #0071eb;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+/*------FOOTER-------*/
+footer {
+    font-family: NetflixSans;
+    font-weight: 400;
+    color: #737373;
+    font-size: 16px;
+    margin-top: 80px;
+}
+
+
+.footer-divider {
+    border-color: #737373;
+    border: 1px solid #737373;
+    width: 99%;
+    height: 0.1px;
+}
+
+.footer {
+    padding: 0 6%;
+    margin-top: 30px;
+}
+
+
+
+footer ul {
+    padding: 0 1%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    width: 80%;
+    justify-content: space-between;
+    font-size: 13px;
+    list-style: none;
+}
+
+footer ul li {
+    width: 100%;
+}
+
+/*-------------TABLET-------*/
+
+@media only screen and (min-width: 740px) {
+    footer{
+        display: none;
+    }
+    footer ul {
+        padding: 0 1%;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 25% 25%  25% 25%;
+        gap: 10px;
+        width: 80%;
+        justify-content: space-between;
+        font-size: 13px;
+        list-style: none;
+    }
+    body {
+        background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://assets.nflxext.com/ffe/siteui/vlv3/6c884f48-f7d8-4a59-9d25-b7c138813aee/56a67946-06ee-4ed6-8e55-0da98306ecb7/AR-es-20230807-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+        height: 100%;
+        margin: 0;
+        color: white;
+        font-family: NetflixSans;
+        line-height: 16px;
+    }
+
+    main{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .cont-all {
+        width: 449px;
+        height: 660px;
+        background-color: rgba(0, 0, 0, .75);
+        border-radius: 4px;
+        box-sizing: border-box;
+        padding: 60px 68px 40px;
+        height: 660px;
+        
+    }
+    
+    .logo-netflix img {
+        margin-top:25px;
+        height: 32px;
+        width: 125px;
+        padding: 0 3%;
+
+    }
+
+    .cont-all h1 {
+        padding: 0 1%;
+        margin-top: 25px;
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 300px;
+        gap: 2px;
+    }
+
+    .log{
+        width: 100%;
+        margin-left: 1%;
+    }
+    input {
+        border: 0;
+        border-radius: 4px;
+        color: #fff;
+        height: 50px;
+        line-height: 50px;
+        padding: 0 5%;
+        background-color: #333;
+        margin-top: 17px;
+        width: 90%;
+    }
+
+    ::placeholder {
+        color: #8c8c8c;
+        font-family: NetflixSans;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .login {
+        background-color: #e50914;
+        font-size: 16px;
+        font-weight: 700;
+        height: 47px;
+        line-height: 16px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 33px;
+        width: 100%;
+    }
+
+    .remember {
+        display: flex;
+        justify-content: space-between;
+        margin-top: -75px;
+        font-weight: 400;
+        color: #b3b3b3;
+        font-size: 13px;
+        padding: 0 1%;
+        font-weight: 100;
+        font-size: 13px;
+    }
+
+    .check {
+        display: flex;
+        gap: 0px;
+    }
+
+    .checkbox {
+        margin-top: -3px;
+    }
+
+    .subs {
+        color: #737373;
+        display: flex;
+        flex-direction: column;
+        padding: 0 1%;
+        width: 100%;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .subs h5 {
+        margin-top: -5px;
+        font-weight: 400;
+    }
+
+    .span-sub {
+        font-size: 16px;
+    }
+
+    .subs span {
+        color: #fff;
+        font-weight: 400;
+    }
+
+    a {
+        color: #0071eb;
+        text-decoration: none;
+        font-weight: normal;
+    }
+
+    /*------FOOTER-------*/
+    footer {
+        font-family: NetflixSans;
+        font-weight: 400;
+        color: #737373;
+        background-color: rgba(0, 0, 0, .75);
+        height: 260px;
+        font-size: 16px;
+        margin-top: 180px;
+    }
+
+
+    .footer-divider {
+        display: none;
+    }
+
+    .footer {
+        padding: 0 6%;
+        margin-top: 30px;
+        margin-left: 400px;
+    }
+
+    footer ul {
+        box-sizing: border-box;
+        font-size: 13px;
+        max-width: 1000px;
+        margin-top: 50px;
+
+    }
+
+    .footer p{
+        padding-top: 23px;
+        margin-left: 12px;
+    }
+
+    footer ul li {
+        box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 16px;
+    min-width: 100px;
+    padding: 0 22px 0 0;
+    vertical-align: top;
+    width: 130%;
+    }
+
+}
